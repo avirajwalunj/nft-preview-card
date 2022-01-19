@@ -1,0 +1,123 @@
+body{
+  text-align: center;
+  background-color: hsl(216, 50%, 16%);
+  font-family: 'Outfit', sans-serif;
+}
+
+p{
+  font-size: 15px;
+  color: hsl(215, 51%, 70%);
+}
+h3{
+  color: hsl(0, 0%, 100%);
+}
+h3:hover{
+  color: hsl(178, 100%, 50%)
+}
+span{
+  color: hsl(0, 0%, 100%);
+}
+span:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+hr{
+  border :none ;
+  height: 0.5px;
+  background-color: hsl(215, 32%, 27%) ;
+  width: 80%;
+  position: relative;
+  top: 50px
+}
+
+.image{
+  border-radius: 20px;
+height: 15rem;
+width: 16rem;
+margin: 15px auto 0;
+
+}
+.card.image {
+  position: relative;
+
+}
+
+.hovered{
+  position: absolute;
+  top: 0;
+  background-color: hsl(178, 100%, 50%, 60%);
+  width: 16rem;
+  height: 15rem;
+  z-index: 999;
+
+  margin: 15px 15px  ;
+  border-radius: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out
+}
+.hovered:hover{
+  opacity: 1
+}
+.eye{
+  position: absolute;
+  top: 90px;
+  right: 110px;
+
+}
+
+
+.card{
+  width: 18rem;
+  border-radius: 25px;
+  height: 30rem;
+  background-color: hsl(216, 50%, 16%);
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+
+  box-shadow: 0px 0px 10px 10px  hsl(217, 54%, 11%);
+}
+
+.text{
+  text-align: left;
+  margin-left: 15px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.etherium{
+  color: hsl(178, 100%, 50%);
+  display: inline-block;
+  position: relative;
+  left:10px;
+}
+.ether{
+  position: absolute;
+  left: 15px;
+}
+.timing{
+  display: inline-block;
+  position: relative;
+  left:10px;
+}
+.clock{
+  position: absolute;
+  left: 180px;
+}
+.creator{
+  position: relative;
+  top: 7px;
+}
+.creator-img{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top: 50px;
+  right: 110px;
+  border-radius:100%;
+  border:2px solid hsl(0, 0%, 100%);
+
+}
